@@ -27,7 +27,7 @@ public class AboutFrame extends JDialog implements MouseListener, ActionListener
     Container cp = getContentPane();
     cp.setLayout(new BorderLayout());
     JPanel topPanel = new JPanel(new BorderLayout());
-    JLabel label1 = new JLabel("<html><br>&nbsp;&nbsp;Pin-Ming v1.0.3<br>&nbsp;&nbsp;Copyright © 2007-2009 Nick Vrvilo</html>");
+    JLabel label1 = new JLabel("<html><br>&nbsp;&nbsp;Pin-Ming v1.0.3<br>&nbsp;&nbsp;Copyright &copy; 2007-2009 Nick Vrvilo</html>");
     JLabel label2 = new JLabel("<html><font color=\"blue\">&nbsp;&nbsp;<u>http://ouuuuch.phoenixteam.org/</u></font></html>");
     label2.addMouseListener(this);
     label2.setCursor(new Cursor(Cursor.HAND_CURSOR));
